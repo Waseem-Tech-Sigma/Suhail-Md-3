@@ -18,16 +18,15 @@ global.DATABASE_URL = process.env.DATABASE_URL || "false"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md-3";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
-global.website =process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VbB9DvdDzgTJP9tuqL25";
+global.website =process.env.GURL || "https://whatsapp.com/channel/0029VbB9DvdDzgTJP9tuqL25" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.postimg.cc/GmZgP9k0/openart-image-pqw8-Zgtv-1751900699391-raw.jpg" || "https://i.postimg.cc/GmZgP9k0/openart-image-pqw8-Zgtv-1751900699391-raw.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "Made With LOVE!" 
 
 
 global.devs = "" // Developer Contacts
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
-
 
 
 
@@ -42,7 +41,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "" //"https://i.ibb.co/pXyNHj8/suhail.jpg" // "image" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "" //"https://i.postimg.cc/GmZgP9k0/openart-image-pqw8-Zgtv-1751900699391-raw.jpg" // "image" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -56,7 +55,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923458136245,923xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com/" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -71,12 +70,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "3.0.1-developement",
-  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
+  caption : global.caption || " POWERED BY LEGEND-WASEEM " , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ LEGEND WASEEM ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • WASEEMxLEGEND』*\n youtube.com/@WASEEM-SHAHZAD_PBX9DEVIL"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-MD",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  botname : process.env.BOT_NAME  || "ROX-LEDEND",
+  ownername:process.env.OWNER_NAME|| "LEGEND WASEEM",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,7 +90,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "Suhail"  ).toUpperCase(),
 
 
 

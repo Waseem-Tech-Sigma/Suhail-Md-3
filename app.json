@@ -1,10 +1,10 @@
 {
-  "name": "suhail-whatsapp-bot@1.0.1",
-  "description": "I am Suhail-X Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
+  "name": "ROX-LEDEND",
+  "description": "I am ROX-LEGEND Whatsapp Chuddy Buddy built in NodeJs to make experience better",
  "logo":"https://telegra.ph/file/9dcef2b49909742db8dbd.jpg",
  
-  "old__logo": "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "old__logo": "https://i.postimg.cc/GmZgP9k0/openart-image-pqw8-Zgtv-1751900699391-raw.jpg",
+  "keywords": ["whatsappbot", "roxmd", "ROX-LEDEND bot", "ROX-LEDEND", "ROXLEGENDWhatsaooBot", "ROXWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/qr/",
   "stack":"container",
@@ -22,7 +22,7 @@
   "BOT_NAME": {
     "description": " NAME FOR BOT",
     "required" :false,    
-    "value": "Suhail-Md"
+    "value": "ROX-LEDEND"
   }, 
   "MSGS_IN_LOG": {
     "description": "Fill the value -true- if you want to see Messages in logs.",
@@ -39,7 +39,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Suhail:Shy<3",
+      "value": "LEGEND-WASEEM",
       "required" :true
     },   
      
@@ -58,7 +58,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Asia/Karachi"
+      "value": "Asia/Jampur"
     },  
 
 
@@ -79,7 +79,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "923458136245"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
